@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f2e9;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  header .logo img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background-image: url('img/kopi_liberika.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 1rem 4rem;
+    position: relative;
+  }
+  
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #d5b798;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #c4a77e;
+  }
+  
+  html, body {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer-links {
+    background-color: #f8f8f8; /* Light background for footer */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center text */
+}
+
+.footer-links .a {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the links */
+    gap: 30px; /* Add space between links */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link text color */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Transition effect for hover */
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #343a40; /* Warna latar belakang */
+    color: white;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} 
+
+nav span {
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  nav span a {
+    margin-left: 0.5rem;
+    font-weight: bold;
+  }
+  /* katalog lay*/
+
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f0e6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    color: #2e1f0f;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .product-item {
+    background-color: #fffaf0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    width: 280px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .product-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .product-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-info h3 {
+    margin: 0.5rem 0 0.3rem;
+    color: #3a2c1a;
+    font-size: 1.2rem;
+  }
+  
+  .product-info p {
+    font-size: 0.95rem;
+    color: #444;
+    margin: 0.2rem 0;
+  }
+  
+  .product-info label {
+    margin-top: 0.8rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .product-info input[type="number"] {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-info .harga {
+    font-weight: bold;
+    color: #3a2c1a;
+  }
+  
+  .product-info button {
+    margin-top: 0.5rem;
+    background-color: #5c3a1c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-info button:hover {
+    background-color: #44290d;
+  }
+  
+  
+  
