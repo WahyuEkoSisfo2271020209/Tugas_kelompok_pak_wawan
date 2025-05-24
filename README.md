@@ -7,8 +7,8 @@ Selamat datang di repositori resmi aplikasi web **UMKM Kopi Lampung**!
 
 | Nama                      | NPM           | Kelas         | Tugas                |
 |---------------------------|---------------|---------------|----------------------|
-| Wahyu Eko Septiyanto      | 2271020209    | 6E SI         | Proposal             |
-| Wildan Fikri Pratama      | 2271020161    | 6E SI         | UI/UX dan Coding     |
+| Wahyu Eko Septiyanto      | 2271020209    | 6E SI         | UI/UX dan Coding     |
+| Wildan Fikri Pratama      | 2271020161    | 6E SI         |  proposal            |
 
 ---
 
