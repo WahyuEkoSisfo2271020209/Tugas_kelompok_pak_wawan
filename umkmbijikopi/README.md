@@ -9,3 +9,7 @@ database dimasukan manual lewat panel admin (tambah produk) di kelola produk
 ('(namaproduk)Kopi Liberika', '(deks)Kopi dengan aroma unik dan langka di pasaran',(harga) 60000,(stok) 30, 'pilih file di img sudah tersedia atau di uploads');
 
 apa bila salah input atau ingin mengganti file bisa mengedit file tersebut di kelola produk
+
+ID : admin PW : admin
+ID : user1  PW : user1
+user dan admin pertama yang ada di database
