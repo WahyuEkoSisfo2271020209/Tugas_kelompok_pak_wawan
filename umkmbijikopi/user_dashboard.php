@@ -21,6 +21,10 @@ if(isset($_GET['user_Home'])){
         include "admin_dashboard.php";
     }else if($_GET['user_Home']==17){
         include "tentang_kami.php";
+    }else if($_GET['user_Home']==18){
+        include "profil.php";
+    }else if($_GET['user_Home']==19){
+        include "edit_profil.php";
     
     }else{
         echo "Home";
