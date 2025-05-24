@@ -5,7 +5,7 @@ $pesan = '';
 
 if (isset($_POST['daftar'])) {
     $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $password = md5($_POST['password']); // Jika ingin lebih aman, gunakan password_hash()
+    $password = md5($_POST['password']); // Sebaiknya gunakan password_hash() untuk keamanan lebih baik
     $email    = mysqli_real_escape_string($conn, $_POST['email']);
     $no_hp    = mysqli_real_escape_string($conn, $_POST['no_hp']);
 
@@ -24,74 +24,84 @@ if (isset($_POST['daftar'])) {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <title>Daftar Akun</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #f4f4f4;
-      padding: 20px;
+      background-color:rgb(184, 137, 114);
+      margin: 0;
+      padding: 0;
     }
 
     .form-container {
-      background: #fff;
-      padding: 25px;
-      max-width: 400px;
-      margin: 40px auto;
-      border-radius: 10px;
-      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+      max-width: 420px;
+      background-color: #fff;
+      margin: 60px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
       text-align: center;
-      margin-bottom: 20px;
-      color: #333;
+      margin-bottom: 24px;
+      color: #4a3e3e;
     }
 
     input {
       width: 100%;
-      padding: 12px;
-      margin-top: 10px;
+      padding: 12px 14px;
+      margin-bottom: 16px;
       border: 1px solid #ccc;
-      border-radius: 6px;
+      border-radius: 8px;
       font-size: 14px;
     }
 
     button {
       width: 100%;
       padding: 12px;
-      margin-top: 20px;
-      background-color: #28a745;
+      background-color: #5c3a1c;
       color: white;
       border: none;
+      border-radius: 8px;
       font-size: 16px;
-      font-weight: 600;
-      border-radius: 6px;
+      font-weight: bold;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
 
     button:hover {
-      background-color: #218838;
+      background-color: #44290d;
     }
 
     .message {
       margin-top: 20px;
       padding: 12px;
-      background-color: #f8f9fa;
-      border: 1px solid #ccc;
-      border-radius: 6px;
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      border-radius: 8px;
+      font-size: 14px;
       text-align: center;
-      color: #333;
+      color: #856404;
     }
 
     .message a {
-      color: #28a745;
+      color: #5c3a1c;
+      font-weight: bold;
       text-decoration: none;
+    }
+
+    .message a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -108,7 +118,7 @@ if (isset($_POST['daftar'])) {
   </form>
 
   <?php if ($pesan): ?>
-    <div class="message"><?php echo $pesan; ?></div>
+    <div class="message"><?= $pesan ?></div>
   <?php endif; ?>
 </div>
 
