@@ -15,6 +15,8 @@ if(isset($_GET['Home'])){
         include "user_dashboard.php";
     }else if($_GET['Home']==7){
         include "admin_dashboard.php";
+    }else if($_GET['Home']==8){
+        include "tentang_kami.php";
     }else{
         echo "Home";
     }
