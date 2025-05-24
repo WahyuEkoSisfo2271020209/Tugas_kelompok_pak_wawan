@@ -7,7 +7,7 @@
         <div class="footer-links">
             <div class="footer-links a">
             
-                    <a href="#">Tentang Kami</a>
+                    <a href="index.php?Home=8">Tentang Kami</a>
                     
             
             </div>
