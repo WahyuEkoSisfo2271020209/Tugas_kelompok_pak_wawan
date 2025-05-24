@@ -71,3 +71,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+
+INSERT INTO users (username, email, no_hp, password, role) VALUES
+('admin', 'admin@example.com', '081234567890', MD5('admin'), 'admin'),
+('user1', 'user1@example.com', '082345678901', MD5('user1'), 'user');
