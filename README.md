@@ -19,3 +19,12 @@ Transfer Bank: Mandiri, BRI, BNI
 E-Wallet: DANA, GoPay, OVO
 
 🔐 Autentikasi: Sistem login sederhana untuk user dan admin.
+
+👥 Kelompok 3
+Nama Anggota:
+
+WAHYU EKO SEPTIYANTO
+NPM: 2271020209
+
+WILDAN FIKRI PRATAMA
+NPM: 2271020161
